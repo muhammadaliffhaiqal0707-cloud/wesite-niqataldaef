@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Niqat Al-Daef | Web Vulnerability Scanner</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f6f8;
+            margin: 0;
+            padding: 0;
+            color: #333;
+        }
+        header {
+            background-color: #004aad;
+            color: white;
+            padding: 30px 20px;
+            text-align: center;
+        }
+        section {
+            background: white;
+            margin: 20px auto;
+            padding: 25px;
+            max-width: 900px;
+            border-radius: 8px;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+        }
+        h1, h2 {
+            color: #004aad;
+        }
+        ul {
+            margin-left: 20px;
+        }
+        footer {
+            text-align: center;
+            background-color: #004aad;
+            color: white;
+            padding: 15px;
+            margin-top: 20px;
+        }
+        .report-box {
+            background-color: #f0f4ff;
+            border-left: 5px solid #004aad;
+            padding: 10px 20px;
+            margin: 10px 0;
+            font-family: monospace;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Niqat Al-Daef</h1>
+    <p>A Lightweight Web Vulnerability Scanner built with Python</p>
+</header>
+
+<section>
+    <h2>About the Project</h2>
+    <p><b>Niqat Al-Daef</b> is an educational web vulnerability scanner designed to help students and beginner developers
+    identify and understand common security flaws such as <b>SQL Injection</b>, <b>Cross-Site Scripting (XSS)</b>, and 
+    <b>Insecure HTTP Headers</b>. Developed using Python, the tool aims to make cybersecurity more accessible, 
+    ethical, and practical for learning environments.</p>
+</section>
+
+<section>
+    <h2>Key Features</h2>
+    <ul>
+        <li>Simple and user-friendly command-line interface (CLI)</li>
+        <li>Modular design – each vulnerability has its own scanner</li>
+        <li>Educational explanations for each finding</li>
+        <li>Offline and ethical usage only (safe test environments)</li>
+        <li>Beginner-friendly output with suggested fixes</li>
+    </ul>
+</section>
+
+<section>
+    <h2>Sample Scan Report</h2>
+    <div class="report-box">
+        =======================================<br>
+        🔍 NIQAT AL-DAEF - SCAN REPORT<br>
+        =======================================<br>
+        📅 Scan Date   : 19 July 2025<br>
+        ⏱️ Scan Time   : 3.25 seconds<br>
+        🌐 Target URL  : http://localhost/dvwa/<br><br>
+
+        [1] SQL Injection Detected (High Severity)<br>
+        → Affected URL: /vulnerable.php?id=1<br>
+        → Suggested Fix: Use parameterized queries (e.g., PDO)<br><br>
+
+        [2] Cross-Site Scripting (XSS) (Medium Severity)<br>
+        → Affected URL: /comment.php?msg=<script><br>
+        → Suggested Fix: Encode and sanitize input.<br><br>
+
+        [3] Missing CSP Header (Low Severity)<br>
+        → Suggested Fix: Add Content-Security-Policy header.<br><br>
+
+        =======================================<br>
+        ✅ Total Vulnerabilities Found: 3<br>
+        =======================================
+    </div>
+</section>
+
+<section>
+    <h2>Project Information</h2>
+    <p><b>Developer:</b> Muhammad Aliff Haiqal bin Jamaludin</p>
+    <p><b>Supervisor:</b> [Insert Supervisor Name]</p>
+    <p><b>Institution:</b> Universiti Sains Islam Malaysia (USIM)</p>
+    <p><b>Project Duration:</b> October 2025 – December 2025</p>
+</section>
+
+<section>
+    <h2>Contact</h2>
+    <p>For collaboration, inquiries, or suggestions, feel free to reach out:</p>
+    <p>Email: <a href="mailto:aliffhaiqal@gmail.com">aliffhaiqal@gmail.com</a></p>
+    <p>GitHub Repository: <a href="https://github.com/yourusername/niqat-al-daef" target="_blank">View on GitHub</a></p>
+</section>
+
+<footer>
+    © 2025 Niqat Al-Daef | For Educational and Ethical Use Only
+</footer>
+
+</body>
+</html>
